@@ -1,0 +1,34 @@
+/* SeachBar */
+
+#searchBar {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+    overflow: hidden;
+    margin: 10px auto 10px auto;
+  }
+  
+  #searchBar > div {
+    padding: 5px 10px;
+  }
+  
+  #searchBar *, #searchBar *:focus  {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  #searchBar span {
+    margin-right: 5px;
+  }
+  
+  #searchBar input {
+    padding: 0;
+    font-size: 16px;
+    vertical-align: text-bottom;
+  }
+
+  .sm-text {
+    font-size: 11px;
+  }

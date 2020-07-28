@@ -1,0 +1,11 @@
+export const checkStatus = (response) => {
+    if(response.ok) {
+        return response;
+    }
+
+    throw new Error('Request Was Either 404 or 500');
+}
+
+export const json = (response) => response.json();
+
+export const apiKey = 'b7da8d63';
